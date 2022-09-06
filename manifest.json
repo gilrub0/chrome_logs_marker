@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "log marker",
+    "version": "1.0",
+    "description": "log marker",
+    "content_scripts": [
+      {
+        "matches": [
+          "https://s3.amazonaws.com/*"
+        ],
+        "js": ["main.js"],
+        "css": ["main.css"]
+      }
+    ],
+    "icons":{
+        "16":"/icons/marker-16.png",
+        "48":"/icons/marker-48.png",
+        "96":"/icons/marker-96.png"
+    }
+  }

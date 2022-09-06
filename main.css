@@ -1,0 +1,41 @@
+span.fail {
+    background-color: rgb(255, 64, 64);
+    color: white;
+}
+
+span.error {
+    background-color: rgb(255, 64, 64);
+    color: white;
+}
+
+span.warning {
+    background-color: rgb(255, 138, 29);
+    color: black;
+}
+
+span.critical {
+    background-color: red;
+    color: white;
+}
+
+
+span.complete {
+    background-color: rgb(32, 255, 32);
+    color: black;
+}
+
+span.success {
+    background-color: rgb(32, 255, 32);
+    color: black;
+}
+
+span.debug {
+    background-color: aqua;
+    color: black;
+}
+
+span.info {
+    background-color: rgb(146, 21, 255);
+    color: white;
+}
+
