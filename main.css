@@ -39,3 +39,12 @@ span.info {
     color: white;
 }
 
+span.destroy {
+    background-color: orange;
+    color: black;
+}
+
+span.create {
+    background-color: greenyellow;
+    color: black;
+}

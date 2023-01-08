@@ -34,6 +34,6 @@ function add_btn(options){
 }
 
 
-const options = ['fail', 'error', 'complete', 'success', 'debug', 'warning', 'info', 'critical'];
+const options = ['fail', 'error', 'complete', 'success', 'debug', 'warning', 'info', 'critical', 'destroy', 'create'];
 add_btn(options);
 console.log("mark ext loaded");
